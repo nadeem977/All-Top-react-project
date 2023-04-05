@@ -1,0 +1,50 @@
+.Navbar-dark{
+background: #fff;
+padding: 20px 10px;
+}
+.navbar-expand-lg .navbar-nav{
+    display: contents;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+.nav-item{
+    margin:0px 5px;
+}
+.nav-link{
+    font-size: 19px;
+    font-weight: 600;
+}
+.nav-link:hover{
+text-decoration: underline;
+color: #1CAC19;
+}
+.signup{
+    background-color: #1CAC19;
+    padding: 8px 30px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+.signup:hover{
+    border: 1px solid #1CAC19;
+    text-decoration: none;
+    color: black;
+    background:transparent ;
+}
+.login{
+    border: 1px solid #1CAC19;
+    padding: 8px 30px;
+    width: 100px;
+    color: white;
+    text-align: center;
+    color: black;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+.login:hover{
+    background-color: #1CAC19;
+   text-decoration: none;
+   color: white;
+}

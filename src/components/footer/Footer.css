@@ -1,0 +1,61 @@
+body {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    width: 100%;
+    background-color: #fff;
+    padding: 0px 10px;
+}
+
+.main-foter-context {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-bottom: 1px solid gray;
+}
+
+.icons-div {
+    display: flex;
+    gap: 10px;
+}
+
+.icons-div .bi {
+    padding: 7px 12px;
+    border-radius: 5px;
+    font-size: 17px;
+    background: #1CAC19;
+    cursor: pointer;
+    transform: translateY(5%);
+    transition: all 0.4s;
+
+}
+
+.icons-div .bi:hover {
+    transform: translateY(-5%);
+    color: #fff;
+}
+
+.context-div {
+    display: flex;
+    gap: 10px;
+}
+.context-div p{
+    font-size: 18px;
+    font-weight: 600;
+}
+.context-div p:hover{
+    text-decoration: underline;
+    color: #1CAC19;
+    cursor: pointer;
+}
+
+.Footer-text-div {
+    text-align: center;
+    padding: 30px 0px;
+}
+.Footer-text-div h6{
+    font-size: 22px;
+    font-weight: 600;
+}

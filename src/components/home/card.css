@@ -1,0 +1,60 @@
+
+.card-div{
+    background: white;
+    color: black;
+    width: 30%;
+    min-width: 350px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px 10px;
+}
+.d-flex{
+    justify-content: space-between;
+}
+.smp{
+    display: flex;
+    gap: 10px;
+}
+p{
+    font-weight: 500;
+}
+small{
+    background-color:rgba(0,0,0,0.2);
+    padding: 3px 8px;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    gap:5px;
+}
+.soml-text{
+    color: rgba(0,0,0,0.5);
+    padding: 10px 0px;
+}
+.text{
+    margin: 10px 0px 20px 0px;
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.like{
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.comments{
+    gap: 10px;
+    cursor: pointer;
+}
+.shear{
+   cursor: pointer;
+}
+
+
+@media (max-width:820px ) {
+    .card-div{
+        width: 90%;
+        margin: 30px auto;
+    }
+}

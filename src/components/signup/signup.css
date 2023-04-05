@@ -1,0 +1,25 @@
+.main-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 800px;
+    height: 100%;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.context {
+    width: 60%;
+    height: auto;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    margin: auto;
+}
+.text-div{
+padding: 0px 40px;
+font-size: 18px;
+}
+.spn{
+    color: rgb(31, 31, 239);
+}

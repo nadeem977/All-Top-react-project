@@ -1,0 +1,38 @@
+.main-contexxt{
+    width: 100%;
+    padding:20px  40px;
+}
+.cards-content{
+    display: flex;
+    margin: 0px auto;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content:space-between;
+}
+.logos{
+    display: flex;
+    justify-content:space-between;
+    margin: 30px auto;
+    width:100%;
+}
+.img-div{
+    display: flex;
+    gap: 10px;
+    width: 30%;
+    align-items: center;
+}
+.btn{
+background-color: #1CAC19;
+outline: none;
+color: white;
+width: 150px;
+font-size: 18px;
+font-weight: 600;
+}
+.btn:hover{
+background-color: #1CAC19;
+color: white;
+}
+.btns{
+    justify-content: center;
+}
